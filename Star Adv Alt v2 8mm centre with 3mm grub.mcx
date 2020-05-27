@@ -1,0 +1,275 @@
+{
+  "ID": "730ebbae-3f0d-4202-a0ee-e0effc65c8a3",
+  "Advanced": true,
+  "Name": "Star Adv Alt v2 8mm centre with 3mm grub",
+  "OriginalChildrenBounds": [
+    {
+      "MaxXYZ": {
+        "X": 27.760299682617188,
+        "Y": 18.897199630737305,
+        "Z": 20.00050163269043
+      },
+      "MinXYZ": {
+        "X": -10.0,
+        "Y": -18.897199630737305,
+        "Z": 5.6843418860808015E-14
+      }
+    },
+    {
+      "MaxXYZ": {
+        "X": 57.0,
+        "Y": -6.5,
+        "Z": 20.0
+      },
+      "MinXYZ": {
+        "X": 37.0,
+        "Y": -26.5,
+        "Z": 0.0
+      }
+    }
+  ],
+  "SelectedChild": [],
+  "TypeName": "AlignObject3D",
+  "XAlign": "Center",
+  "XAlignTo": "None",
+  "XOffset": 0.0,
+  "YAlign": "Center",
+  "YAlignTo": "None",
+  "YOffset": 0.0,
+  "ZAlign": "Min",
+  "ZAlignTo": "Max",
+  "ZOffset": 0.0,
+  "Children": [
+    {
+      "ID": "12515fe8-e83f-46be-922e-f53cf52f9b13",
+      "Name": "Knob",
+      "SelectedChildren": [
+        "6d799ff3-fba2-4de7-bf23-eddc3404ea16"
+      ],
+      "TypeName": "SubtractObject3D_2",
+      "Children": [
+        {
+          "ID": "1fc17df1-e328-484e-946d-b34ed391cc3a",
+          "Name": "Source",
+          "TypeName": "OperationSourceObject3D",
+          "Visible": false,
+          "Children": [
+            {
+              "ID": "935f6bcc-ec10-44cb-a9cc-71007a2532fb",
+              "Matrix": "[-0.99999999999999778,0.0,-8.5798338919640364E-16,0.0,0.0,0.99999999999999067,0.0,0.0,8.5798338919640364E-16,0.0,-0.99999999999999778,0.0,8.9141998291015643,2.9842794901924208E-13,29.99950027465821,1.0]",
+              "MeshPath": "C:\\Users\\turbo\\Downloads\\3d print\\customizableknob_20200527-48-5nfjp9.stl",
+              "Name": "customizableknob_20200527-48-5nfjp9.stl"
+            },
+            {
+              "ID": "6d799ff3-fba2-4de7-bf23-eddc3404ea16",
+              "Advanced": false,
+              "Color": "#B0FE86",
+              "Diameter": 20.0,
+              "DiameterTop": 20.0,
+              "EndingAngle": 360.0,
+              "Height": 20.0,
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.50000000000000011,0.0,8.5,0.0,25.0,1.0]",
+              "MeshPath": "73C83DBD6E2803433D7CF636BB728482D29021BB.stl",
+              "Name": "Shaft Removal",
+              "Sides": 40,
+              "StartingAngle": 0.0,
+              "TypeName": "CylinderObject3D"
+            }
+          ]
+        },
+        {
+          "ID": "7958b0b6-b4cc-4d77-ad6b-62f5d5ec253e",
+          "Color": "#FFFFFF",
+          "MeshPath": "BFEA0EB5FE7D3E79FF18CD3B7A47C4CA65C00B6C.stl",
+          "Name": "customizableknob_20200527-48-5nfjp9.stl",
+          "OwnerID": "79db1e38-d820-4cdf-8bc7-4eaf936a6d50"
+        }
+      ]
+    },
+    {
+      "ID": "1c49048b-69af-429e-8151-c0d266194103",
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-38.119850158691406,16.5,20.00050163269043,1.0]",
+      "Name": "Shaft with GrubScrew",
+      "SelectedChildren": [
+        "65988a8f-7ca7-46b1-8e7b-0fb1155c4970"
+      ],
+      "TypeName": "SubtractObject3D_2",
+      "Children": [
+        {
+          "ID": "d445ed32-ecab-48fe-b9ab-af3c90d9a4ca",
+          "Name": "Source",
+          "TypeName": "OperationSourceObject3D",
+          "Visible": false,
+          "Children": [
+            {
+              "ID": "4bac4c4a-8ac7-4851-a131-15e1541d19b7",
+              "Advanced": true,
+              "Expanded": true,
+              "Name": "Align",
+              "OriginalChildrenBounds": [
+                {
+                  "MaxXYZ": {
+                    "X": 57.0,
+                    "Y": -6.5,
+                    "Z": 20.0
+                  },
+                  "MinXYZ": {
+                    "X": 37.0,
+                    "Y": -26.5,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "MaxXYZ": {
+                    "X": 55.0,
+                    "Y": -35.000000000000014,
+                    "Z": 6.5000000000000036
+                  },
+                  "MinXYZ": {
+                    "X": 45.0,
+                    "Y": -38.0,
+                    "Z": 3.4999999999999964
+                  }
+                }
+              ],
+              "SelectedChild": [],
+              "TypeName": "AlignObject3D",
+              "XAlign": "Max",
+              "XAlignTo": "Max",
+              "XOffset": 2.0,
+              "YAlign": "Center",
+              "YAlignTo": "Center",
+              "YOffset": 0.0,
+              "ZAlign": "Center",
+              "ZAlignTo": "None",
+              "ZOffset": 0.0,
+              "Children": [
+                {
+                  "ID": "dd24d5b7-5a4d-4df7-ad0e-ba3d209cbe74",
+                  "Name": "Shaft",
+                  "SelectedChildren": [
+                    "556855e9-e313-447e-ad38-62ebdbad699e"
+                  ],
+                  "TypeName": "SubtractObject3D_2",
+                  "Children": [
+                    {
+                      "ID": "3764ce09-fcd1-4089-81f6-9d1ba4b989e8",
+                      "Name": "Source",
+                      "TypeName": "OperationSourceObject3D",
+                      "Visible": false,
+                      "Children": [
+                        {
+                          "ID": "88546b29-0fc7-4475-9a10-3979d92ce170",
+                          "Advanced": false,
+                          "Name": "Align",
+                          "OriginalChildrenBounds": [
+                            {
+                              "MaxXYZ": {
+                                "X": 57.0,
+                                "Y": -6.5,
+                                "Z": 20.0
+                              },
+                              "MinXYZ": {
+                                "X": 37.0,
+                                "Y": -26.5,
+                                "Z": 0.0
+                              }
+                            },
+                            {
+                              "MaxXYZ": {
+                                "X": 52.5,
+                                "Y": -12.5,
+                                "Z": 20.0
+                              },
+                              "MinXYZ": {
+                                "X": 44.5,
+                                "Y": -20.5,
+                                "Z": 0.0
+                              }
+                            }
+                          ],
+                          "SelectedChild": [],
+                          "TypeName": "AlignObject3D",
+                          "XAlign": "Center",
+                          "XAlignTo": "None",
+                          "XOffset": 0.0,
+                          "YAlign": "Center",
+                          "YAlignTo": "None",
+                          "YOffset": 0.0,
+                          "ZAlign": "Center",
+                          "ZAlignTo": "None",
+                          "ZOffset": 0.0,
+                          "Children": [
+                            {
+                              "ID": "fd1ce3f0-19bc-4d5a-82f8-ebb8f315e284",
+                              "Advanced": false,
+                              "Color": "#B0FE86",
+                              "Diameter": 20.0,
+                              "DiameterTop": 20.0,
+                              "EndingAngle": 360.0,
+                              "Height": 20.0,
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,47.0,-16.5,10.0,1.0]",
+                              "MeshPath": "73C83DBD6E2803433D7CF636BB728482D29021BB.stl",
+                              "Name": "Cylinder",
+                              "Sides": 40,
+                              "StartingAngle": 0.0,
+                              "TypeName": "CylinderObject3D"
+                            },
+                            {
+                              "ID": "556855e9-e313-447e-ad38-62ebdbad699e",
+                              "Advanced": false,
+                              "Color": "#B0FE86",
+                              "Diameter": 8.0,
+                              "DiameterTop": 20.0,
+                              "EndingAngle": 360.0,
+                              "Height": 20.0,
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,47.0,-16.5,10.0,1.0]",
+                              "MeshPath": "C0333F8757784810A861EDC56A18BB064B07D4EC.stl",
+                              "Name": "Cylinder (1)",
+                              "Sides": 40,
+                              "StartingAngle": 0.0,
+                              "TypeName": "CylinderObject3D"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "ID": "28c7fd40-9884-475b-b946-39a371d74e26",
+                      "Color": "#B0FE86",
+                      "MeshPath": "6BD90AE7872C3E16F410789DD90DB89B96303513.stl",
+                      "Name": "Cylinder",
+                      "OwnerID": "be22e042-f16c-4815-bc6d-106027cf9624"
+                    }
+                  ]
+                },
+                {
+                  "ID": "65988a8f-7ca7-46b1-8e7b-0fb1155c4970",
+                  "Advanced": false,
+                  "Color": "#B0FE86",
+                  "Diameter": 3.0,
+                  "DiameterTop": 20.0,
+                  "EndingAngle": 360.0,
+                  "Height": 10.0,
+                  "Matrix": "[-7.7143695077774854E-16,0.0,-1.0,0.0,0.0,0.99999999999999711,0.0,0.0,1.0,0.0,-7.7143695077774854E-16,0.0,54.0,-16.5,10.0,1.0]",
+                  "MeshPath": "0DC34BC84C32429C69166E4C0DD858FACDC9E92A.stl",
+                  "Name": "Cylinder (2)",
+                  "Sides": 40,
+                  "StartingAngle": 0.0,
+                  "TypeName": "CylinderObject3D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": "17f71487-e066-4904-ad71-0b6cff8a895e",
+          "Color": "#B0FE86",
+          "MeshPath": "5C34A1D00864D644CFB8A1335B8AEC44F63FA5A1.stl",
+          "Name": "Cylinder",
+          "OwnerID": "c106c557-49df-4011-8f0b-371af3bd8d1a"
+        }
+      ]
+    }
+  ]
+}

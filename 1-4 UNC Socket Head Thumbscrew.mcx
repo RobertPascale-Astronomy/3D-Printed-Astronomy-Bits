@@ -1,0 +1,67 @@
+{
+  "ID": "70c6eabb-adb1-4ff7-976f-a95b92a8df3d",
+  "Advanced": false,
+  "Expanded": true,
+  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-16.0,21.5,0.0,1.0]",
+  "Name": "Align",
+  "OriginalChildrenBounds": [
+    {
+      "MaxXYZ": {
+        "X": 33.5,
+        "Y": -11.5,
+        "Z": 9.0
+      },
+      "MinXYZ": {
+        "X": 13.5,
+        "Y": -31.5,
+        "Z": 0.0
+      }
+    },
+    {
+      "MaxXYZ": {
+        "X": 7.8249999106754213,
+        "Y": 7.8249998092651394,
+        "Z": 4.8400019542209174
+      },
+      "MinXYZ": {
+        "X": -7.8250002323912691,
+        "Y": -7.8249998092649156,
+        "Z": 0.0
+      }
+    }
+  ],
+  "SelectedChild": [],
+  "TypeName": "AlignObject3D",
+  "XAlign": "Center",
+  "XAlignTo": "None",
+  "XOffset": 0.0,
+  "YAlign": "Center",
+  "YAlignTo": "None",
+  "YOffset": 0.0,
+  "ZAlign": "None",
+  "ZAlignTo": "None",
+  "ZOffset": 0.0,
+  "Children": [
+    {
+      "ID": "2c4e7aa4-22cc-4fb7-8d65-47ffa561d794",
+      "Advanced": true,
+      "Color": "#8A86FE",
+      "EndingAngle": 360.0,
+      "Height": 5.0,
+      "InnerDiameter": 9.35,
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.7999999999999998,0.0,23.5,-21.5,4.5,1.0]",
+      "MeshPath": "8D444F47B5BB2B6C52B6FABD51AE0762DD67D1A0.stl",
+      "Name": "Ring",
+      "OuterDiameter": 35.0,
+      "Sides": 40,
+      "StartingAngle": 0.0,
+      "TypeName": "RingObject3D"
+    },
+    {
+      "ID": "d0ba51c8-60bf-4a5d-aa97-715f9337d71b",
+      "Matrix": "[-0.99999999999998157,0.0,1.7484556127483448E-07,0.0,0.0,0.999999999999986,0.0,0.0,-1.7484556127483448E-07,0.0,-0.99999999999998157,0.0,23.500000583984193,-21.5,4.840001520754285,1.0]",
+      "MeshPath": "C:\\Users\\turbo\\Downloads\\3d print\\shaftbuddy_20200527-60-ge60zk.stl",
+      "Name": "shaftbuddy_20200527-60-ge60zk.stl"
+    }
+  ]
+}
