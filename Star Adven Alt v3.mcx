@@ -1,44 +1,7 @@
 {
   "ID": "730ebbae-3f0d-4202-a0ee-e0effc65c8a3",
-  "Advanced": true,
-  "Name": "Star Adv Alt v2 8mm centre with 3mm grub",
-  "OriginalChildrenBounds": [
-    {
-      "MaxXYZ": {
-        "X": 27.760299682617188,
-        "Y": 18.897199630737305,
-        "Z": 20.00050163269043
-      },
-      "MinXYZ": {
-        "X": -10.0,
-        "Y": -18.897199630737305,
-        "Z": 5.6843418860808015E-14
-      }
-    },
-    {
-      "MaxXYZ": {
-        "X": 57.0,
-        "Y": -6.5,
-        "Z": 20.0
-      },
-      "MinXYZ": {
-        "X": 37.0,
-        "Y": -26.5,
-        "Z": 0.0
-      }
-    }
-  ],
-  "SelectedChild": [],
-  "TypeName": "AlignObject3D",
-  "XAlign": "Center",
-  "XAlignTo": "None",
-  "XOffset": 0.0,
-  "YAlign": "Center",
-  "YAlignTo": "None",
-  "YOffset": 0.0,
-  "ZAlign": "Min",
-  "ZAlignTo": "Max",
-  "ZOffset": 0.0,
+  "Expanded": true,
+  "Name": "Star Adven Alt v2",
   "Children": [
     {
       "ID": "12515fe8-e83f-46be-922e-f53cf52f9b13",
@@ -88,6 +51,7 @@
     },
     {
       "ID": "1c49048b-69af-429e-8151-c0d266194103",
+      "Expanded": true,
       "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-38.119850158691406,16.5,20.00050163269043,1.0]",
       "Name": "Shaft with GrubScrew",
       "SelectedChildren": [
@@ -146,6 +110,7 @@
               "Children": [
                 {
                   "ID": "dd24d5b7-5a4d-4df7-ad0e-ba3d209cbe74",
+                  "Expanded": true,
                   "Name": "Shaft",
                   "SelectedChildren": [
                     "556855e9-e313-447e-ad38-62ebdbad699e"
@@ -161,6 +126,7 @@
                         {
                           "ID": "88546b29-0fc7-4475-9a10-3979d92ce170",
                           "Advanced": false,
+                          "Expanded": true,
                           "Name": "Align",
                           "OriginalChildrenBounds": [
                             {
@@ -204,12 +170,12 @@
                               "ID": "fd1ce3f0-19bc-4d5a-82f8-ebb8f315e284",
                               "Advanced": false,
                               "Color": "#B0FE86",
-                              "Diameter": 20.0,
+                              "Diameter": 12.0,
                               "DiameterTop": 20.0,
                               "EndingAngle": 360.0,
                               "Height": 20.0,
                               "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,47.0,-16.5,10.0,1.0]",
-                              "MeshPath": "73C83DBD6E2803433D7CF636BB728482D29021BB.stl",
+                              "MeshPath": "D4E88CCD2D50E98C79314337F1B3EBA58AB434B3.stl",
                               "Name": "Cylinder",
                               "Sides": 40,
                               "StartingAngle": 0.0,
@@ -235,11 +201,11 @@
                       ]
                     },
                     {
-                      "ID": "28c7fd40-9884-475b-b946-39a371d74e26",
+                      "ID": "bb2434be-b383-40ad-bb41-d7d57a883d79",
                       "Color": "#B0FE86",
-                      "MeshPath": "6BD90AE7872C3E16F410789DD90DB89B96303513.stl",
+                      "MeshPath": "6DBDA3BAB91BC7CCEF8C842030E68244DDF2FFCA.stl",
                       "Name": "Cylinder",
-                      "OwnerID": "be22e042-f16c-4815-bc6d-106027cf9624"
+                      "OwnerID": "fd1ce3f0-19bc-4d5a-82f8-ebb8f315e284"
                     }
                   ]
                 },
@@ -251,7 +217,7 @@
                   "DiameterTop": 20.0,
                   "EndingAngle": 360.0,
                   "Height": 10.0,
-                  "Matrix": "[-7.7143695077774854E-16,0.0,-1.0,0.0,0.0,0.99999999999999711,0.0,0.0,1.0,0.0,-7.7143695077774854E-16,0.0,54.0,-16.5,10.0,1.0]",
+                  "Matrix": "[-7.7143695077774854E-16,0.0,-1.0,0.0,0.0,0.99999999999999711,0.0,0.0,1.0,0.0,-7.7143695077774854E-16,0.0,50.0,-16.5,10.0,1.0]",
                   "MeshPath": "0DC34BC84C32429C69166E4C0DD858FACDC9E92A.stl",
                   "Name": "Cylinder (2)",
                   "Sides": 40,
@@ -263,11 +229,11 @@
           ]
         },
         {
-          "ID": "17f71487-e066-4904-ad71-0b6cff8a895e",
+          "ID": "18a497a9-a78f-43f6-8bc8-4eedaa5c5c34",
           "Color": "#B0FE86",
-          "MeshPath": "5C34A1D00864D644CFB8A1335B8AEC44F63FA5A1.stl",
+          "MeshPath": "41A1AA20244A41345EBFD5DA852A29A6E1FE58D5.stl",
           "Name": "Cylinder",
-          "OwnerID": "c106c557-49df-4011-8f0b-371af3bd8d1a"
+          "OwnerID": "bb2434be-b383-40ad-bb41-d7d57a883d79"
         }
       ]
     }

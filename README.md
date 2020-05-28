@@ -27,7 +27,6 @@ The build for this is described in this video: https://youtu.be/U7CCWhEAuhc
 
 1-4 UNC Socket Head Thumbscrew (for Losmandy Mounting Plates)
 https://www.thingiverse.com/thing:4401236
-Based on the "base" I created with a customiser here: https://www.thingiverse.com/thing:4401025
 A nice little reference on UNC screw sizes: https://www.bayoucitybolt.com/socket-head-cap-screws-us.html
 
 
